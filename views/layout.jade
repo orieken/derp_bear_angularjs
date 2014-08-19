@@ -4,4 +4,11 @@ html
     title= title
     link(rel='stylesheet', href='/stylesheets/bootstrap-superhero.css')
   body
+    div.navbar.navbar-default
+      div.navbar-header
+        button.navbar-toggle(type="button" data-toggle="collapse" data-target=".navbar-responsive-collapse")
+        a.navbar-brand= title
+
+
+
     block content
